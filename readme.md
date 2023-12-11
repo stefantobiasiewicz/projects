@@ -13,6 +13,10 @@ The device is powered by two AAA batteries, and all versions were programmed usi
 SDK. The latest version of the PCB includes additional sensors for light, humidity, and temperature.
 However, this version has not been assembled yet.
 
+Github link: https://github.com/stefantobiasiewicz/soil-moisture/tree/nrf52833-V2.0.1
+Software for receiving data form sensor:
+Github link: https://github.com/stefantobiasiewicz/bleConnectV2
+
 <img alt="drawing" src="img/SoilSensor/IMG_1604.jpeg" width="600"/>
 
 Looks of designed PCB
@@ -39,6 +43,7 @@ environmental data. The deployment process is managed through bash scripts, exec
 Raspberry Pi to deploy new versions of the application. All data is sent to a blob storage Minio,
 which is running on another server machine.
 
+Github link: https://github.com/stefantobiasiewicz/bug-box
 
 <img alt="drawing" src="img/BugBox/IMG_1615.jpeg" width="600"/>
 <img alt="drawing" src="img/BugBox/IMG_1616.jpeg" width="600"/>
@@ -54,6 +59,8 @@ application was created for the project to control it.
 
 The device use a relay valve and a water flow sensor, enabling precise dispensing of water. To
 power up the relay and the main board, a 230V-12V AC-DC converter is used.
+
+Github link: https://github.com/stefantobiasiewicz/water-dispenser
 
 <img alt="drawing" src="img/WaterDispenser/IMG_1596.jpeg" width="600"/>
 <img alt="drawing" src="img/WaterDispenser/IMG_1597.jpeg" width="600"/>
@@ -71,6 +78,8 @@ Thread and Zigbee.
 
 I designed the PCB, which was then ordered from a factory. The assembly process involved
 soldering using solder paste and a homemade hotplate, along with an iron.
+
+Github link: https://github.com/stefantobiasiewicz/Inzynierka
 
 <img alt="drawing" src="img/ContactSensor/IMG_1609.jpeg" width="600"/>
 <img alt="drawing" src="img/ContactSensor/IMG_1610.jpeg" width="600"/>
