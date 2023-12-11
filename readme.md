@@ -1,17 +1,17 @@
 #### Hi, I'm Stefan Tobiasiewicz and this is a short description of some of my projects that I have done in the last two years
 
-
 ## Soil Sensor:
 
-Device desinged to monitor soil moisture of plant. Project finally baser on NRF52833 SoC. In
-previous version was based on NRF52811. Device use capacitive soil sensor. During development my own
-design of this type sensor was created. Device use NRF52833 SoC for future work in Zigbee network.
-Currently device use BLE for sending data to software. Also to this project I wrote python
-application listening advertisement form devices and pushes it to mqtt broker. Device is powered by
-two AAA batteries. All versions was programed using nrf Connect SDK.
+The device is designed to monitor soil moisture levels in plants. The project is ultimately based on
+the NRF52833 SoC, whereas the previous version used the NRF52811. The device use a capacitive
+soil sensor, and during development, my own design for this type of sensor was created. The NRF52833
+SoC is chosen for future integration into Zigbee networks. Currently, the device utilizes BLE for
+transmitting data to software. In addition, I developed a Python application for this project, which
+listens to advertisements from devices and pushes the data to an MQTT broker.
 
-I designed three versions of PCBs, and the latest one includes additional light, humidity, and
-temperature sensors. However, this version has not been assembled yet.
+The device is powered by two AAA batteries, and all versions were programmed using the nRF Connect
+SDK. The latest version of the PCB includes additional sensors for light, humidity, and temperature.
+However, this version has not been assembled yet.
 
 <img alt="drawing" src="img/SoilSensor/IMG_1604.jpeg" width="600"/>
 
@@ -46,13 +46,14 @@ which is running on another server machine.
 <img alt="drawing" src="img/BugBox/IMG_1618.jpeg" width="600"/>
 <img alt="drawing" src="img/BugBox/IMG_1619.jpeg" width="600"/>
 
-
 ## Water dispenser:
 
-Project created for watering plants. Based on NRF52820 SoC and programed using Nrf connect SDK.
-Device use BLE for interact with user. Aso for project was created application in python to control
-it. Device use relay valve and water flow sensor, it allows to dispense water precisely. Device use
-230v-12V AC-DC converter to power up relay and main board.
+The project is designed for watering plants and is based on the NRF52820 SoC, programmed using the
+nRF Connect SDK. The device utilizes BLE for interaction with the user. Additionally, a Python
+application was created for the project to control it.
+
+The device use a relay valve and a water flow sensor, enabling precise dispensing of water. To
+power up the relay and the main board, a 230V-12V AC-DC converter is used.
 
 <img alt="drawing" src="img/WaterDispenser/IMG_1596.jpeg" width="600"/>
 <img alt="drawing" src="img/WaterDispenser/IMG_1597.jpeg" width="600"/>
@@ -62,13 +63,14 @@ it. Device use relay valve and water flow sensor, it allows to dispense water pr
 
 ## Contact Sensor:
 
-Project which I've done to pass Beatcher engineering degree.
+The project I completed to fulfill the requirements for my Bachelor's degree in Engineering involved
+creating a device to function as a door/window open-close sensor in a Zigbee network. The device
+seamlessly integrates with the Zigbee2Mqtt platform and Home Assistant software. It is built around
+the NRF52840 SoC from Nordic Semiconductor, and the software was developed using the nRF5 SDK for
+Thread and Zigbee.
 
-Device is designed to work as door/window open close sensor in Zigbee network. Device works with
-Zigbee2Mqtt platform and Home Assistant software. Device is based on NRF52840 Soc from Nordic
-Semiconductor and software was created using nRF5 SDK for Thread and Zigbee. PCB was designed by me
-nad ordered form factory. I soldered everything using solder paste and homemade hotplate and using
-iron.
+I designed the PCB, which was then ordered from a factory. The assembly process involved
+soldering using solder paste and a homemade hotplate, along with an iron.
 
 <img alt="drawing" src="img/ContactSensor/IMG_1609.jpeg" width="600"/>
 <img alt="drawing" src="img/ContactSensor/IMG_1610.jpeg" width="600"/>
@@ -81,9 +83,9 @@ Also I designed cover and print it on 3d print:
 
 ## Gecko Controller:
 
-Project designed for controlling gecko terrarium. Device control heater plate under the pet sleep
-place and lighting in terrarium. Device is based on ESP-12F microcontroller. Device expose REST API
-for control.
+The project is designed for controlling a gecko terrarium. The device manages a heater plate beneath
+the pet's sleeping area and controls the lighting within the terrarium. It is built around the
+ESP-12F microcontroller and exposes a REST API for user control.
 
 <img alt="drawing" src="img/GeckoController/IMG_1601.jpeg" width="600"/>
 <img alt="drawing" src="img/GeckoController/IMG_1602.jpeg" width="600"/>
@@ -91,10 +93,12 @@ for control.
 
 ## Gecko Heater:
 
-Project designed for heating air temperature in gecko terrarium. Device works like hair drier, fan
-press air to the heat spiral made form resistance wire. All device based on Atmega8 and use serial
-port for control. Over serial port is implemented AT command protocol parser wrote by myself. Device
-take 12V form external power supply.
+The project is designed to regulate the air temperature in a gecko terrarium, functioning similarly
+to a hairdryer. A fan directs air over a heat spiral made from resistance wire. The entire device is
+built on the Atmega8 microcontroller, utilizing the serial port for control. I implemented an AT
+command protocol parser over the serial port, which I designed myself. The device is powered by a
+12V external power supply.
+
 
 <img alt="drawing" src="img/GeckoHeater/IMG_1598.jpeg" width="600"/>
 <img alt="drawing" src="img/GeckoHeater/IMG_1599.jpeg" width="600"/>
