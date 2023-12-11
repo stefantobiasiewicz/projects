@@ -14,6 +14,7 @@ SDK. The latest version of the PCB includes additional sensors for light, humidi
 However, this version has not been assembled yet.
 
 Github link: https://github.com/stefantobiasiewicz/soil-moisture/tree/nrf52833-V2.0.1
+
 Software for receiving data form sensor:
 Github link: https://github.com/stefantobiasiewicz/bleConnectV2
 
