@@ -91,6 +91,19 @@ Also I designed cover and print it on 3d print:
 <img alt="drawing" src="img/ContactSensor/IMG_1612.jpeg" width="600"/>
 <img alt="drawing" src="img/ContactSensor/IMG_1613.jpeg" width="600"/>
 
+## Angle Sensor:
+A device designed as an electronic angle level. The device uses the STM32F103C8 MCU and MPU6050 to monitor angle and acceleration.
+Based on these parameters, the total angle where the device is placed is calculated. The device is powered by a 3.7V li-poly battery with an onboard charger.
+For the device, my own PCB design was created and manufactured. Everything was soldered by me using a hotplate and soldering iron. 
+For software development, I used STM-Cube-MX and my own designed MPU6050 I2C library based on the datasheet.
+
+<img alt="drawing" src="img/AngleSensor/img1.png" width="600"/>
+<img alt="drawing" src="img/AngleSensor/img2.png" width="600"/>
+<img alt="drawing" src="img/AngleSensor/img3.png" width="600"/>
+<img alt="drawing" src="img/AngleSensor/img4.png" width="600"/>
+<img alt="drawing" src="img/AngleSensor/img5.png" width="600"/>
+
+
 ## Gecko Controller:
 
 The project is designed for controlling a gecko terrarium. The device manages a heater plate beneath
