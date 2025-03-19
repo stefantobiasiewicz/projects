@@ -103,6 +103,7 @@ Programmer and programming station (bottom pads match proggramer pins in 3d prin
 <img alt="drawing" src="img/SoilSensor/IMG_1608.jpeg" width="600"/>
 
 Current final working PCB
+
 <img alt="drawing" src="img/SoilSensor/IMG_1614.jpeg" width="600"/>
 
 ## Bug Box:
@@ -119,7 +120,6 @@ Github link: https://github.com/stefantobiasiewicz/bug-box
 <img alt="drawing" src="img/BugBox/IMG_1615.jpeg" width="600"/>
 <img alt="drawing" src="img/BugBox/IMG_1616.jpeg" width="600"/>
 <img alt="drawing" src="img/BugBox/IMG_1617.jpeg" width="600"/>
-<img alt="drawing" src="img/BugBox/IMG_1618.jpeg" width="600"/>
 <img alt="drawing" src="img/BugBox/IMG_1619.jpeg" width="600"/>
 
 ## Water dispenser:
