@@ -46,7 +46,7 @@ The machine is in an advanced development stage, providing stable and reliable o
 [//]: # (Insert images of the winder and software in action)
 <img alt="drawing" src="img/CoilWinder/img_3.png" width="300"/>
 
-![youspinmerightnow](img/CoilWinder/bez-nazwy.gif)
+<img alt="drawing" src="img/CoilWinder/bez-nazwy.gif" width="400"/>
 
 ## Soil Sensor:
 
@@ -71,8 +71,7 @@ Base on program developed with C and nrf-connect-SDK with Zephyr RTOS.
 UI is created in LVGL with custom zephyr display driver constructed for two colour pxiel e-ink display.
 
 
-![youspinmerightnow](img/SoilSensor/IMG_3055.gif)
-
+<img alt="drawing" src="img/SoilSensor/IMG_3055.gif" width="400"/>
 
 
 The device is powered by two AAA batteries and designed to minimize current consumption.
