@@ -17,7 +17,8 @@ The machine operates in two modes:
 - **Standalone Mode** – Allows simple coil winding without external control.
 - **PC-Controlled Mode** – Enables more advanced and repeatable coil winding patterns using a G-code protocol, allowing greater customization of coil shapes, which directly influences the guitar's sound characteristics.
 
-The embedded software is written in C, utilizing a complex state-machine approach with multithreading for efficient task management. Advanced algorithms ensure precise stepper motor control and accurate position interpolation.
+The embedded software is written in C, utilizing a complex state-machine approach with multithreading for efficient task management and smooth machine work during communications.
+Advanced algorithms ensure precise stepper motor control and accurate position interpolation.
 
 ### PC Software
 
